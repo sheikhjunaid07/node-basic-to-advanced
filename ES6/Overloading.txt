@@ -1,0 +1,3 @@
+Overloading - it is a kind of polymorphism which signify poly means many and mrphism means forms that is one entity with different- different implimentation.
+
+If same feature impimentate with function then considered as function overloading

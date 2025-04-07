@@ -1,0 +1,12 @@
+Event looping - Event looping is a process which explains how the processors are executed in Javascript environment. Consist of several parts like - Call Stack, Callback Queue, Web APIs etc.
+
+Call Stack - It is stack of processors i.e. all the processers which are to be executed, must be placed in call stack, ones process execution is completed it will be removed from call stack.
+
+Note:- As JS follows single call stack hence UNI-threded in nature.
+
+Callback Queue - Those process which is to be executed, but are delayed due to aqdditional circumextences are in callback queue.
+It checks call stack is empty or not.
+If empty process will be transfered to call stack.
+If not it will wait untill callstack will be empty.
+
+WEB APIs - Third party supports like - setTimeout, DOM etc.

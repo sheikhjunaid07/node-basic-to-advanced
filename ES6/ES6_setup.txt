@@ -1,0 +1,21 @@
+//ES6 environment setup
+
+1. Move to the folder and create applicaion configuration file, package.json.
+
+commands:
+npm init: command to create package.json with custom configuration.
+
+npm init -y: command to create package.json with default configuration.
+-------------------------------------------------------------
+2. Install Module needed for ES6 environment setup.
+
+commands:
+npm install @babel/core: 
+
+npm install @babel/node: to change ES6 to ES5
+
+npm install @babel/preset-env
+
+npm install babel-plugin-add-module-exports: to use module import and export.
+---------------------------------------------------------------
+3. Move to package.json file and add configuration to running ES6 enviromnent.	

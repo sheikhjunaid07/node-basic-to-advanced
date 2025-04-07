@@ -1,0 +1,74 @@
+Express : It is NodeJS based server side development framework , used to develop server side for web based application by following framework approach.
+
+Framework : it is a approach to develop a application in distributed form , i.e to make different implementations of MVC architecture
+
+MVC :-
+Model : DB related implementation
+Views : UI related implementation
+Controller : Bussiness logic unit  
+
+It was developed to generate REST API by using node programming
+
+Note : Developed on 16th nov 2010 , developed by IBM
+LTS : 4.19.2
+
+-----------------------------------------------------------
+
+Features of ExpressJS :-
+
+-> Open source : It means express is free to used , can be easily downloaded from npm
+
+-> Platform independent : It is platform independent in nature , i.e a application can be implemented on different platforms. Only need is to check dependency are available or not
+	
+  express app = source code + dependency(modules)
+
+-> Portable
+
+-> Framework architecture : It is approach to write application , express follows MVC architecture to write application
+
+MVC -> M:models , V:views , C:controller   
+
+M : It is Database related implementation , used to develop database related logic in application
+
+V : It is UI related implementation , used to develop UI application
+
+C : It is Bussiness logic unit, used to develop , logic related to application working
+
+-> Middleware functions : This are functions capable to work in request response procedure , without disturbing actual req-res procedure.   
+
+-> Database support : Express comes with various modules to make connectivity with different databases like MySQL , MongoDB , sqlite3 ,.....  
+
+-> Template engine & pages :- This are UI pages capable to load both client side as well as server side content , here client side content will be executed on browser while to execute server side content we use template engine.
+
+Template engine : This are modules capable to execute template script implemented on template pages
+
+Template script & template engine
+
+pug script : pug engine   
+ejs script : ejs engine
+jade script : jade engine
+
+demo.pug
+
+html
+head
+title PUG Demo
+body
+h1 Welcome to world of PUG  
+
+demo.ejs
+
+<html>
+<head>
+<title>EJS Demo</title>
+</head>
+<body>
+<h1>Welcome to world of EJS</h1>
+</body>
+</html>
+
+-> Automatic management for 
+
+* req-res process 
+* response header management
+* built in methods for URL routing & method checking

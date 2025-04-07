@@ -1,0 +1,3 @@
+Call Back - A function which is executed in response of execution of another function as consider as Callback Function. A callback function is capable to execute response code along with to get return values.
+
+Note:- By-Default by nature all function are Synchronous. callback function is also by-default in synchronous.

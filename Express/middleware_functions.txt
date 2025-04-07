@@ -1,0 +1,47 @@
+Middleware : This are functions capable to work in between request response mechanism , without disturbing actual application flow are middleware.
+
+actual req-res :-	
+	            response 
+		   <---------	
+      client side  ----------> server side
+      (web browser)  request		
+	                      
+
+middleware req-res :-
+
+                      response 
+           <------------------------------	
+  client side ----> middleware ----> server side 
+ (web browser) 	req	        req
+	 
+
+key point :-
+
+-> get request
+-> if required work on request
+-> generate response
+-> send response to next server implementation
+-> in some cases may respond directly to client side
+-> will not affect req-res mechanism
+
+-----------------------------------------------------------
+
+Types of middleware functions :-
+
+-> Application level middleware
+-> Route level middleware
+-> Builtin middleware
+-> Third party middleware   
+
+-----------------------------------------------------------
+
+-> Route level middleware : It is a middleware used to divide routes as per code requirement , generally routes are divided as per users or application level working modules  
+
+ERP : product resources
+modules : Visitor , User , Admin   
+ 
+visitor capability : /home , /about , /contact , /service , /register , /login
+
+user capability : /userhome , /cpuser , /epuser , /viewcategory  
+ 
+admin capability : /adminhome , /cpadmin , /epadmin , /addcategory , /addsubcategory , /addproduct
