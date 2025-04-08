@@ -1,0 +1,17 @@
+body {
+  background-color: burlywood;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+h2 {
+  color: brown;
+}
+
+a {
+  color: darkslateblue;
+  text-decoration: none;
+}
