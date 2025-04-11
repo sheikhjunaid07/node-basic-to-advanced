@@ -4,7 +4,7 @@ class MyClass{
 	 b = 200;
 	 c = 300;
 
-	demo(){
+	demo(){	
 		console.log("Demo Function invoked.");
 	}
 
