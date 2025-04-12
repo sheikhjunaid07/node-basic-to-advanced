@@ -5,7 +5,6 @@ const router = express.Router();
 router.get("/", (request, response) => {
   response.render("admin");
 });
-
 router.get("/editProfile", (request, response) => {
   response.render("editProfile");
 });
