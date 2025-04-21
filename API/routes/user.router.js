@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.post("/save", UserController.save);
 
-router.get("/getData", UserController.getData);
+router.get("/fetch", UserController.fetch);
 
 export default router;
