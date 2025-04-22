@@ -7,4 +7,8 @@ router.post("/save", UserController.save);
 
 router.get("/fetch", UserController.fetch);
 
+router.delete("/delete", UserController.deleteUser);
+
+router.patch("/update", UserController.update);
+
 export default router;
